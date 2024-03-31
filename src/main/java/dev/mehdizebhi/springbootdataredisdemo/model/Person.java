@@ -3,7 +3,6 @@ package dev.mehdizebhi.springbootdataredisdemo.model;
 import java.util.Set;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Reference;
 import org.springframework.data.geo.Point;
 
 import com.redis.om.spring.annotations.Document;
@@ -39,7 +38,7 @@ public class Person {
     @Indexed @NonNull private Point homeLoc;
 
     // Nest indexed object
-    @Indexed @NonNull @Reference private Address address;
+    @Indexed @NonNull private Address address;
 
     @Indexed @NonNull private Set<String> skills;
 }

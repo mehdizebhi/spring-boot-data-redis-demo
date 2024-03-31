@@ -13,9 +13,6 @@ import org.springframework.data.annotation.Id;
 @RequiredArgsConstructor(staticName = "of")
 @Document
 public class Address {
-
-    @Id @Indexed private String id;
-
     @NonNull @Indexed private String houseNumber;
 
     @NonNull @Searchable(nostem = true) private String street;
