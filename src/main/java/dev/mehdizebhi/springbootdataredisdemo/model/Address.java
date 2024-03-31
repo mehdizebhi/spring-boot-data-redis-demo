@@ -7,7 +7,6 @@ import com.redis.om.spring.annotations.Searchable;
 import lombok.Data;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.annotation.Id;
 
 @Data
 @RequiredArgsConstructor(staticName = "of")
