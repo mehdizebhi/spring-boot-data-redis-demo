@@ -1,0 +1,18 @@
+###
+# Enter min & max
+GET http://localhost:8080/api/v1/people/age_between?min=19&max=43
+
+###
+GET http://localhost:8080/api/v1/people/homeloc?d=10&lat=-28.71&lon=153.59
+
+###
+GET http://localhost:8080/api/v1/people/name?first=Robert&last=Downey
+
+###
+GET http://localhost:8080/api/v1/people/statement?q=Can Move Things
+
+###
+GET http://localhost:8080/api/v1/people/01HTAFACYEGVXMYZ4FHA493ZN7
+
+###
+GET http://localhost:8080/api/v1/people/city?city=Los Angeles
